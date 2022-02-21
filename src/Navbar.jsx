@@ -19,10 +19,10 @@ export class Navbar extends Component {
                  <li>Contact</li>             
              </ul>
              <ul className='social__media'>
-                 <li><img src={facebook}/></li>
-                 <li><img src={twitter}/></li>
-                 <li><img src={instagram}/></li>
-                 <li><img src={yt}/></li>
+                 <li><img id='logos' src={facebook}/></li>
+                 <li><img id='logos' src={twitter}/></li>
+                 <li><img id='logos' src={instagram}/></li>
+                 <li><img id='logos' src={yt}/></li>
              </ul>
              </div>
           </nav>
